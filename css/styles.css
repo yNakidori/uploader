@@ -1,0 +1,73 @@
+body {
+    background-color: #f0f4f8;
+}
+
+.upload-container {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 500px;
+    text-align: center;
+}
+
+.git {
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #666;
+
+}
+
+.upload-container h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.upload-container input[type="file"] {
+    display: none;
+}
+
+.upload-container label {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.upload-container .form-group {
+    margin-bottom: 20px;
+}
+
+.upload-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+}
+
+.upload-list img,
+.upload-list video {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.upload-list .file-details {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.upload-item {
+    position: relative;
+}
+
+.delete-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
