@@ -1,0 +1,29 @@
+# Diretório do Composer (dependências)
+vendor/
+
+# Diretório de uploads (arquivos carregados dinamicamente)
+uploads/
+
+# Arquivo de configuração do Firebase (informações sensíveis)
+php-upload-9943df-firebase-adminsdk-qge6d-4de6f7d1cb.json
+
+# Arquivo de configuração do banco de dados (informações sensíveis)
+phpdb.json
+
+# Arquivos de log
+*.log
+
+# Arquivos de cache
+*.cache
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos do editor
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de ambiente
+.env
